@@ -1,0 +1,58 @@
+{
+    "manufacturer": "na",
+    "keyboard_name": "blorbo",
+    "maintainer": "na",
+    "bootloader": "stm32-dfu",
+    "diode_direction": "COL2ROW",
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true
+    },
+    "matrix_pins": {
+        "rows": ["A7", "A6", "A5", "A4", "A3", "A2", "A1"],
+        "cols": ["B9", "B8", "B7", "B6", "B5"]
+    },
+    "processor": "STM32F401",
+    "url": "",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x0000",
+        "vid": "0xFEED"
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"label": "K00 (A7,B9)", "matrix": [0, 0], "x": 0, "y": 0},
+                {"label": "K01 (A7,B8)", "matrix": [0, 1], "x": 1, "y": 0},
+                {"label": "K02 (A7,B7)", "matrix": [0, 2], "x": 2.25, "y": 0},
+                {"label": "K03 (A7,B6)", "matrix": [0, 3], "x": 3.25, "y": 0},
+                {"label": "K04 (A7,B5)", "matrix": [0, 4], "x": 4.25, "y": 0},
+                {"label": "K20 (A5,B9)", "matrix": [2, 0], "x": 0, "y": 1.5},
+                {"label": "K21 (A5,B8)", "matrix": [2, 1], "x": 1, "y": 1.5},
+                {"label": "K22 (A5,B7)", "matrix": [2, 2], "x": 2.25, "y": 1.5},
+                {"label": "K23 (A5,B6)", "matrix": [2, 3], "x": 3.25, "y": 1.5},
+                {"label": "K24 (A5,B5)", "matrix": [2, 4], "x": 4.25, "y": 1.5},
+                {"label": "K30 (A4,B9)", "matrix": [3, 0], "x": 0, "y": 2.5},
+                {"label": "K31 (A4,B8)", "matrix": [3, 1], "x": 1, "y": 2.5},
+                {"label": "K32 (A4,B7)", "matrix": [3, 2], "x": 2.25, "y": 2.5},
+                {"label": "K33 (A4,B6)", "matrix": [3, 3], "x": 3.25, "y": 2.5},
+                {"label": "K34 (A4,B5)", "matrix": [3, 4], "x": 4.25, "y": 2.5},
+                {"label": "K40 (A3,B9)", "matrix": [4, 0], "x": 0, "y": 3.5},
+                {"label": "K41 (A3,B8)", "matrix": [4, 1], "x": 1, "y": 3.5},
+                {"label": "K50 (A2,B9)", "matrix": [5, 0], "x": 0, "y": 4.5},
+                {"label": "K51 (A2,B8)", "matrix": [5, 1], "x": 1, "y": 4.5},
+                {"label": "K53 (A2,B6)", "matrix": [5, 3], "x": 3.25, "y": 4.5},
+                {"label": "K60 (A1,B9)", "matrix": [6, 0], "x": 0, "y": 5.5},
+                {"label": "K61 (A1,B8)", "matrix": [6, 1], "x": 1, "y": 5.5},
+                {"label": "K62 (A1,B7)", "matrix": [6, 2], "x": 2.25, "y": 5.5},
+                {"label": "K63 (A1,B6)", "matrix": [6, 3], "x": 3.25, "y": 5.5},
+                {"label": "K64 (A1,B5)", "matrix": [6, 4], "x": 4.25, "y": 5.5}
+           ]
+        }
+    },
+    "meta": BLORB IT UP
+}
