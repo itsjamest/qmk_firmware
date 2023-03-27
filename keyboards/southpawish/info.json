@@ -17,8 +17,8 @@
         "cols": ["C13", "C14", "C15", "B9", "A1", "A2", "A3", "B8", "B7", "B6", "B5", "B3", "B3", "A15", "A8", "B15", "B14", "B13", "B12"]
     },
     "processor": "STM32F401",
-    "url": ""{
-    "usb":  
+    "url": "",
+    "usb":{
         "device_version": "1.0.0",
         "pid": "0x0000",
         "vid": "0xFEED"
