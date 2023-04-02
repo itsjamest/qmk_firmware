@@ -39,9 +39,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 void housekeeping_task_user(void) {
     led_t led_state = host_keyboard_led_state();
     uint8_t red = led_state.caps_lock ? 75 : 0;
-    uint8_t green = layer_state_is(0) ? 75 : 0;
-    uint8_t blue = layer_state_is(1) ? 75 : 0;
-    rgblight_setrgb_range(red, green, blue, 0,1);
+    uint8_t green = layer_state_is(0) ? 0 : 0;
+    uint8_t blue = layer_state_is(1) ? 0 : 0;
+    rgblight_setrgb_range(red, green, blue, 14,16);
 }
 
 //void housekeeping_task_user(void) {
