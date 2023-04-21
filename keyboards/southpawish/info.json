@@ -36,7 +36,7 @@
                 {"label": "K08 (A5,B7)", "matrix": [0, 8], "x": 8.5, "y": 0},
                 {"label": "K09 (A5,B6)", "matrix": [0, 9], "x": 9.5, "y": 0},
                 {"label": "K0A (A5,B5)", "matrix": [0, 10], "x": 10.5, "y": 0},
-                {"label": "K0B (A5,B4)", "matrix": [0, 11], "x": 12, "y": 0},
+                {"label": "K0B (A5,B3)", "matrix": [0, 11], "x": 12, "y": 0},
                 {"label": "K0C (A5,B3)", "matrix": [0, 12], "x": 13, "y": 0},
                 {"label": "K0D (A5,A15)", "matrix": [0, 13], "x": 14, "y": 0},
                 {"label": "K0E (A5,A8)", "matrix": [0, 14], "x": 15, "y": 0},
